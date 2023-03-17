@@ -14,7 +14,7 @@ spec:
         app: hello-flask
     spec:
       SecurityContext:
-        runAsUser: 1000
+        runAsUser: 1001
         runAsGroup: 3000
         fsGroup: 2000
         fsGroupChangePolicy: "OnRootMismatch"
